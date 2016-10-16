@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>task2-18</title>
+	<title>task2-19</title>
 	<style>
-		#container>div {
-			display: inline-block;
-			font-size: 24px;
-			font-family: Arial, Sans-serif;
-			padding: 8px;
-			margin: 2px 3px;
-			color: #fff;
-			background: #f00;
+		#container {
+			display: flex;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -o-flex;
+			display: -ms-flex;
+			flex-flow: row nowrap;
+			justify-content: flex-start;
+			align-items: flex-end;
+			height: 550px;
+			margin: 10px;
 		}
+		#container>div {
+			margin: 0 1px;
+			width: 18px;
+			background-color: #f00;
+		}
+
 	</style>
 </head>
 <body>
@@ -25,6 +34,6 @@
 	</div>
 	<div id="container">
 	</div>
-	<script src="task-2-18.js"></script>
+	<script src="task2-19.js"></script>
 </body>
 </html>
