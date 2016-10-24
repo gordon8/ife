@@ -51,4 +51,4 @@
 * [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 * [15种排序算法可视化展示](http://v.youku.com/v_show/id_XNTM1NTQxMDMy.html%20http://v.youku.com/v_show/id_XNjIwNTEzMTA0.html?from=y1.2-1-176.3.3-2.1-1-1-2-0)
 
-### [任务二十：基础JavaScript练习（三）](http://ife.baidu.com/task/detail?taskId=20)
+### [任务二十一：基础JavaScript练习（四）](http://ife.baidu.com/task/detail?taskId=21)
