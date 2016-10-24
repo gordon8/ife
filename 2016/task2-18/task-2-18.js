@@ -70,23 +70,23 @@ var addInput = {
 	},
 	unshift: function (value) {
 		this.inputList.unshift(value);
-		this.inner(this.inputList);
+		this.render(this.inputList);
 	},
 	push: function (value) {
 		this.inputList.push(value);
-		this.inner(this.inputList);
+		this.render(this.inputList);
 	},
 	shift: function () {
 		alert(this.inputList[0]);
 		this.inputList.shift();
-		this.inner(this.inputList);
+		this.render(this.inputList);
 	},
 	pop: function () {
 		alert(this.inputList[this.inputList.length-1]);
 		this.inputList.pop();
-		this.inner(this.inputList);
+		this.render(this.inputList);
 	},
-	inner: function (arr) {
+	render: function (arr) {
 		var html = '';
 		for (var i = 0; i < arr.length; i++) {
 			html += '<div data-index=' + i + '>' + arr[i] + '</div>';
@@ -96,7 +96,7 @@ var addInput = {
 	delete: function (ev) {
 		var index = ev.target.getAttribute('data-index');
 		this.inputList.splice(index, 1);
-		this.inner(this.inputList);
+		this.render(this.inputList);
 	}
 };
 

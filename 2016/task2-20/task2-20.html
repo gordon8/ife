@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task2-20</title>
+	<style>
+		#container>div {
+			display: inline-block;
+			font-size: 24px;
+			font-family: Arial, 'Microsoft YaHei', Sans-serif;
+			padding: 8px;
+			margin: 2px 3px;
+			color: #fff;
+			background: #f00;
+		}
+		#container>div>span {
+			background-color: #FF0;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<div id="input-wrap">
+		<textarea name="list" id="list" cols="30" rows="10" placeholder="输入多个内容，通过用回车，逗号（全角半角均可），顿号，空格（全角半角、Tab等均可）等符号作为不同内容的间隔"></textarea>
+		<input type="button" value="提交">
+		<input type="text">
+		<input type="button" value="查询">
+	</div>
+	<div id="container">
+	</div>
+	<script src="task2-20-1.js"></script>
+</body>
+</html>
